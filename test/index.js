@@ -8,7 +8,7 @@ var transform = require('../');
 var input = fs.readFileSync(__dirname + '/input.sass', 'utf8');
 var expected = fs.readFileSync(__dirname + '/expected.css', 'utf8');
 
-var output = transform.compile(input);
+var output = transform.render(input);
 fs.writeFileSync(__dirname + '/output.css', output);
 assert(output === expected, 'output.css should equal expected.css');
 

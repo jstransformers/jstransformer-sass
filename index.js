@@ -2,7 +2,9 @@
 
 var sass = require('sass');
 
+exports.name = 'sass';
 exports.outputFormat = 'css';
-exports.compile = function (str, options) {
+
+exports.render = function (str, options) {
   return sass.render(str);
 };
