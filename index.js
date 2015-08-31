@@ -9,6 +9,9 @@ exports.outputFormat = 'css'
  * Clean the given options, injecting indentedSyntax if required.
  */
 function getOptions(options) {
+  // Ensure options exists.
+  options = options || {}
+
   // Default indentedSyntax to true for SASS syntax.
   if (!('indentedSyntax' in options)) {
     options.indentedSyntax = true
