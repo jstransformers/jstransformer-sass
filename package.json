@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "jstransformer-scss": "^0.1.1"
+    "jstransformer-scss": "^0.1.2"
   },
   "name": "jstransformer-sass",
   "version": "0.1.0",
@@ -15,8 +15,8 @@
     "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "test-jstransformer",
-    "coverage": "test-jstransformer coverage"
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
   },
   "repository": {
     "type": "git",
