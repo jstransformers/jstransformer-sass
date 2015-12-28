@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "jstransformer-scss": "^0.1.2"
-  },
   "name": "jstransformer-sass",
   "version": "0.1.0",
   "description": "SASS support for JSTransformers.",
@@ -11,12 +8,18 @@
   "files": [
     "index.js"
   ],
+  "dependencies": {
+    "jstransformer-scss": "^0.1.2"
+  },
   "devDependencies": {
     "test-jstransformer": "^1.0.0"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer"
+  },
+  "engines": {
+    "node": ">=0.10.36"
   },
   "repository": {
     "type": "git",
