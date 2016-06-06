@@ -1,15 +1,25 @@
 # jstransformer-sass
 
-Transform SASS into CSS
+[SASS](https://github.com/sass/node-sass) support for [JSTransformers](http://github.com/jstransformers).
 
-[![Build Status](https://img.shields.io/travis/jstransformer/jstransformer-sass/master.svg)](https://travis-ci.org/jstransformer/jstransformer-sass)
-[![Dependency Status](https://img.shields.io/gemnasium/jstransformer/jstransformer-sass.svg)](https://gemnasium.com/jstransformer/jstransformer-sass)
+[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-sass/master.svg)](https://travis-ci.org/jstransformers/jstransformer-sass)
+[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-sass/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-sass?branch=master)
+[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-sass/master.svg)](http://david-dm.org/jstransformers/jstransformer-sass)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-sass.svg)](https://www.npmjs.org/package/jstransformer-sass)
 
 ## Installation
 
     npm install jstransformer-sass
 
+## API
+
+```js
+var sass = require('jstransformer')(require('jstransformer-sass'))
+
+sass.render('h1\n  color: red').body
+//=> 'h1 {\n  color: red;\n}'
+```
+
 ## License
 
-  MIT
+MIT
