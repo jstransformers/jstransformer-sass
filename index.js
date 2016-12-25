@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 var scss = require('jstransformer-scss')
 
