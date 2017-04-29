@@ -1,5 +1,7 @@
 # jstransformer-sass
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-sass.svg)](https://greenkeeper.io/)
+
 [SASS](https://github.com/sass/node-sass) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-sass/master.svg)](https://travis-ci.org/jstransformers/jstransformer-sass)
