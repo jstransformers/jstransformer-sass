@@ -1,6 +1,6 @@
 'use strict'
 
-var scss = require('jstransformer-scss')
+const scss = require('jstransformer-scss')
 
 exports.name = 'sass'
 exports.outputFormat = 'css'
