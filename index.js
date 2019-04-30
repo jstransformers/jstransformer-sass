@@ -7,6 +7,10 @@ exports.outputFormat = 'css'
 
 /**
  * Clean the given options, injecting indentedSyntax if required.
+ *
+ * @param {array} options Array of options that will be passed to SASS.
+ *
+ * @returns {object} A cleaned up options array.
  */
 function getOptions(options) {
   // Ensure options exists.
