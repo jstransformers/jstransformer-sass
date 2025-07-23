@@ -9,7 +9,7 @@
     "index.js"
   ],
   "dependencies": {
-    "jstransformer-scss": "^1.0.0"
+    "jstransformer-scss": "^2.0.0"
   },
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
